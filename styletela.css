@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+
+body {
+    color: rgb(54, 53, 53);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+main h1{ 
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+main p {
+    margin-top: 5px;
+    font-size: 0.70rem;
+}
+
+.alternative {
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+main .social-media {
+    display: flex;
+    margin-left: 275px;
+    margin-top: 50px;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+ width: 36px;
+ margin-left: 1rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+
+main form input{
+    width: 350px;
+    height: 40px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #b4bfdf69;
+    border-radius: 3px;
+
+}
+
+main form input[type ="submit"] {
+    cursor:pointer;
+    width: 350px;
+    margin-top: 1rem;
+    border: none;
+    background: #5a51ff;
+    color: white;
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+}
+
+.lateral {
+    height: 100vh;
+    background-color:#5a51ff28;
+
+}
+
+main form input[type ="submit"]:hover {
+    background-color: #3730b3;
+}
+
+.imagem {
+    margin-top: 100px;
+}
+
+h1::after {
+    content:'';
+    width: 200px;
+    height: 1.75px;
+    background-color: #5a51ff;
+    display: block;
+    margin: 0 auto;
+}
+
